@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-This is Dr. Test Account's home on the web!
-
-Lorem ipsum.
+I am a motivated Data Scientist
