@@ -82,8 +82,8 @@ author:
   bio              : "Data Scientist at Bidgely."
   location         : "Bangalore, India"
   employer         : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=LnjUpooAAAAJ"
-  email            : 
+  googlescholar    : "https://scholar.google.com/citations?user=LnjUpooAAAAJ&hl=en"
+  email            : "mayanksharan96@gmail.com"
   uri              : 
   bitbucket        :
   codepen          :
@@ -96,7 +96,7 @@ author:
   keybase          :
   instagram        : 
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/mayank-sharan-490bb4132/"
   orcid            : "https://orcid.org/0000-0003-1497-9224"
   pinterest        :
   soundcloud       :
@@ -248,7 +248,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Kolkata # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
