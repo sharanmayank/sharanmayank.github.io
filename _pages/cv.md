@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: "Résumé"
 sitemap: false
 permalink: /cv/
