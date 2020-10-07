@@ -13,8 +13,8 @@ I completed my undergraduate degree in Computer Science and Engineering from [II
 
 **Updates**
 
-* 21 April 2020 \| Patent Granted \| [Low frequency energy disaggregation techniques](https://patents.google.com/patent/US10630502B2/en)
-* 2	 May   2018 \| Project Report \| [Summarization of News Articles using Pointer-Generator Networks](https://sharanmayank.github.io/files/Summarization_of_News_Articles_using_Pointer_Generator_Networks.pdf)
+* 21 April 2020: Patent Granted \| [Low frequency energy disaggregation techniques](https://patents.google.com/patent/US10630502B2/en)
+* 2 May 2018: Project Report \| [Summarization of News Articles using Pointer-Generator Networks](https://sharanmayank.github.io/files/Summarization_of_News_Articles_using_Pointer_Generator_Networks.pdf)
 
 **Links**
 
