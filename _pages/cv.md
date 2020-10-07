@@ -8,5 +8,5 @@ redirect_from:
   - /resume
 ---
 
-<embed src="https://sharanmayank.github.io/files/cv.pdf" type="application/pdf" />
+<embed src="https://sharanmayank.github.io/files/Resume.pdf" type="application/pdf" />
 
