@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Senior Data Scientist at [Bidgely](https://www.bidgely.com/). My primary interests are Artificial Intelligence, Natural Language Processing and Recommender Systems. At Bidgely, I work mainly with energy data and associated information designing and developing industry leading AI solutions.
 
-I completed my undergraduate degree in Computer Science and Engineering from [IIT Delhi](https://home.iitd.ac.in/) with a specialisation in Data Analytics and Artificial Intelligence. I worked with [Prof. Mausam](http://www.cse.iitd.ac.in/~mausam/) on [Indian Legal Dataset Analysis](https://sharanmayank.github.io/files/BTP_Report.pdf) and worked with [Prof. Rahul](http://www.cse.iitd.ernet.in/~rahulgarg/) on [Detecting Severity of Nicotine Addiction via Eye Tracking]().
+I completed my undergraduate degree in Computer Science and Engineering from [IIT Delhi](https://home.iitd.ac.in/) with a specialisation in Data Analytics and Artificial Intelligence. I worked with [Prof. Mausam](http://www.cse.iitd.ac.in/~mausam/) on [Indian Legal Dataset Analysis](https://sharanmayank.github.io/files/BTP_Report.pdf) and worked with [Prof. Rahul](http://www.cse.iitd.ernet.in/~rahulgarg/) on [Detecting Severity of Nicotine Addiction via Eye Tracking](https://engrxiv.org/b3vqk/).
 
 **Updates**
 
@@ -19,6 +19,7 @@ I completed my undergraduate degree in Computer Science and Engineering from [II
 
 **Links**
 
+* [Detecting Severity of Nicotine Addiction for Eye Tracking (Pre-print)](https://engrxiv.org/b3vqk/)
 * [Bachelor Thesis Project website (Indian Legal Dataset Analysis)](https://sharanmayank.github.io/files/btp_website/home)
 * [Bachelor Thesis Project report (Indian Legal Dataset Analysis)](https://sharanmayank.github.io/files/BTP_Report.pdf)
 * [Online Multiplayer Pong Game (jar download)](https://sharanmayank.github.io/files/pong_game.zip)
