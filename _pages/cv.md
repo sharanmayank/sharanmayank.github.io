@@ -1,12 +1,8 @@
 ---
-layout: archive
-title: "Résumé"
-sitemap: false
+layout: cv
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+title: cv
+nav: true
+nav_order: 4
+cv_pdf: example_pdf.pdf
 ---
-
-<embed src="https://sharanmayank.github.io/files/Resume.pdf" type="application/pdf" />
-

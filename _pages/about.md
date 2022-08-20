@@ -1,26 +1,25 @@
 ---
+layout: about
+title: about
 permalink: /
-title: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  address: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
+
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Senior Data Scientist at [Bidgely](https://www.bidgely.com/). My primary interests are Artificial Intelligence, Natural Language Processing and Recommender Systems. At Bidgely, I work mainly with energy data and associated information designing and developing industry leading AI solutions.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-I completed my undergraduate degree in Computer Science and Engineering from [IIT Delhi](https://home.iitd.ac.in/) with a specialisation in Data Analytics and Artificial Intelligence. I worked with [Prof. Mausam](http://www.cse.iitd.ac.in/~mausam/) on [Indian Legal Dataset Analysis](https://sharanmayank.github.io/files/BTP_Report.pdf) and worked with [Prof. Rahul](http://www.cse.iitd.ernet.in/~rahulgarg/) on [Detecting Severity of Nicotine Addiction via Eye Tracking](https://engrxiv.org/b3vqk/).
+Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-**Updates**
-
-* 19 October 2020: Talk Delivered \| [Short-Term Load Forecasting using Deep Learning](https://sharanmayank.github.io/files/STLF.pdf)
-* 21 April 2020: Patent Granted \| [Low frequency energy disaggregation techniques](https://patents.google.com/patent/US10630502B2/en)
-* 2 May 2018: Project Report \| [Summarization of News Articles using Pointer-Generator Networks](https://sharanmayank.github.io/files/Summarization_of_News_Articles_using_Pointer_Generator_Networks.pdf)
-
-**Links**
-
-* [Detecting Severity of Nicotine Addiction for Eye Tracking (Pre-print)](https://engrxiv.org/b3vqk/)
-* [Bachelor Thesis Project website (Indian Legal Dataset Analysis)](https://sharanmayank.github.io/files/btp_website/home)
-* [Bachelor Thesis Project report (Indian Legal Dataset Analysis)](https://sharanmayank.github.io/files/BTP_Report.pdf)
-* [Online Multiplayer Pong Game (jar download)](https://sharanmayank.github.io/files/pong_game.zip)
-* [Online Sudoku Game](http://2.consudoku.appspot.com/)
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
