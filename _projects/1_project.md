@@ -1,80 +1,33 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Constrained Multi Agent Traffic Control
+description: Deep RL | Fall 2021 | Prof. Yu
+img: assets/img/conmatsco.png
 importance: 1
-category: work
+category: Course Projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Population growth and densification of urban neighbourhoods is leading to traffic increasingly
+becoming a blocking problem in real life. Adaptive traffic signal control (ATSC) solutions attempt to
+tackle road congestion by modeling stoplight behavior policies based on real time traffic data. Initial
+works relied on heuristics and domain specific information to create stoplight policies, however,
+collecting such information for larger road maps is time exhaustive, expensive and lacks feasibility.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Recently, reinforcement learning (RL) has been applied to the task. RL algorithms do not rely on
+heuristics and are capable of learning optimal policies by directly fitting a parametric model on the
+input space, making them provably useful in the ATSC domain. However, these policies by default
+do not take into account real world constraints to ensure tractability and safety.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Designing agents with safe policies would make them deployable for traffic signal control in the real
+world. Our work is focused on incorporating both hard and soft constraints into the learning of the
+RL agent to ensure safety and allow configurability.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Links**
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+- [Code](https://github.com/ulya-tkch/Con-MATSCo) 
+- [Report](https://drive.google.com/file/d/1JjnieVBhM4QINRHtGQGjrDbcKgfYOeA9/view?usp=sharing) 
+- [Presentation](https://docs.google.com/presentation/d/1TqJuZVTLTXz59GIunUNZTY0sV_9_C7m63rWqh4HGvFE/edit?usp=sharing)
 
+**Collaborators** 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+[Ulyana Tkachenko](https://www.linkedin.com/in/ulyana-tkachenko/), [Rohin Garg](https://www.linkedin.com/in/rohin-garg-953643151/)
