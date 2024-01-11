@@ -123,7 +123,55 @@
             <!-- _pages/publications.md -->
 <div class="publications">
   <h2 class="year">2023</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">SuMob ’23</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="10.1145/3615899.3627934" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Incident Congestion Propagation Prediction Using Incident Reports</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Mathias Niemann Tygesen, Mayank Sharan, Francisco C. Pereira, and
+            <span class="more-authors" title="click to view 2 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '2 more authors' ? 'Filipe Rodrigues, Rose Yu' : '2 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">2 more authors</span>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 1st ACM SIGSPATIAL International Workshop on Sustainable Mobility</em> 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://doi.org/10.1145/3615899.3627934" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Accurate predictions of how congestion propagates are essential for mitigating its effects on traffic and the urban environment. However, the vast majority of state-of-the-art traffic prediction models focus on regular traffic scenarios and struggle to adapt to the conditions following incidents. This is particularly problematic since the irregular periods after incidents are arguably when traffic predictions are most critical. Current traffic models struggle with non-recurring congestion for two reasons: they lack inputs alerting them an incident has happened, and traffic data containing incident information is scarce. We create two new such datasets: one by simulating incidents and their congestion in an open-source microscopic simulator and another by fusing real-world traffic flow data with incident reports. We then propose a framework that integrates incident reports into deep learning models for congestion propagation prediction. Our framework utilizes the recent traffic flow data and fuses it with information from incident reports. We perform a detailed empirical comparison between recurrent and graph-based models utilizing incident reports against baselines. Our study demonstrates that our framework significantly outperforms state-of-the-art graph-based models that do not account for incident reports.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">Thesis</abbr></div>
@@ -156,7 +204,8 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography">
